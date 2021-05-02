@@ -1,4 +1,5 @@
 import Header from './Header/Header';
+import Button from './common/Button';
 
 import './App.css';
 

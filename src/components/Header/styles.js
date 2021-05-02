@@ -9,6 +9,10 @@ export const StyledHeader = styled.header`
   height: 70px;
   background-color: rgba(245, 245, 245, .2);
   padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
 `;
 
 export const StyledNav = styled.nav`
