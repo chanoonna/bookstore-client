@@ -5,20 +5,35 @@ export const StyledHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 70px;
   background-color: rgba(245, 245, 245, .2);
-  padding: 1rem 0;
-  position: fixed;
-  top: 0;
-  overflow: hidden;
-  z-index: 2;
+  font-size: ${theme.fontSize.large};
+  color: ${theme.color.darkGray2};
+`;
+
+export const StyledTitle = styled.h1`
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0;
+  margin: 2rem 0;
+  text-align: center;
+  border-top: 3px solid ${theme.color.darkGray1};
+  border-bottom: 3px solid ${theme.color.darkGray1};
 `;
 
 export const StyledNav = styled.nav`
   width: 50%;
-  min-width: 1024px;
   display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+`;
+
+export const StyledNavMenuBox = styled.aside`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 `;
 
 export const StyledLogoContainer = styled.img`
@@ -27,18 +42,17 @@ export const StyledLogoContainer = styled.img`
 
 export const StyledInputField = styled.div`
   width: 100%;
-  height: 40px;
-  min-width: 400px;
-  border-bottom: 2px solid ${theme.color.darkGray};
-  padding: ${theme.padding.small};
 `;
 
 export const StyledInput = styled.input`
   width: 90%;
   height: 28px;
+  padding: 0 10px;
+  border-radius: 0.5rem;
   font-size: ${theme.fontSize.medium};
   border: none;
   outline: none;
+  background-color: rgba(150, 150, 150, 0.1);
 `;
 
 export const IconContainer = styled.span`

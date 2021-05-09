@@ -13,7 +13,7 @@ const NavSearchBox = () => {
     <StyledNavSearchBox>
       <StyledInputField>
         <IconContainer>
-          <FontAwesomeIcon icon={faSearch} size="2x" />
+          <FontAwesomeIcon icon={faSearch} size="1x" />
         </IconContainer>
         <StyledInput placeholder="Search for books..." />
       </StyledInputField>
