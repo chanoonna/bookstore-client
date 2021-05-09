@@ -3,13 +3,14 @@ const theme = {
     primary: '#000EB5',
     white: '#FFFFFF',
     black: '#000000',
-    darkGray: '#A9A9A9'
+    darkGray1: '#A9A9A9',
+    darkGray2: '#36465D'
   },
   fontSize: {
     extraSmall: '1rem',
-    small: '1.5rem',
-    medium: '2rem',
-    large: '2.5rem',
+    small: '1.25rem',
+    medium: '1.5rem',
+    large: '2rem',
     extraLarge: '3rem'
   },
   margin: {

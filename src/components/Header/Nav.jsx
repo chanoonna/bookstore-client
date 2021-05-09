@@ -1,17 +1,14 @@
 import NavSearchBox from './NavSearchBox';
+import NavMenuBox from './NavMenuBox';
 
 import {
-  StyledNav,
-  StyledLogoContainer
+  StyledNav
 } from './styles';
 
 const Nav = () => {
   return (
     <StyledNav>
-      <StyledLogoContainer
-        src="images/logo.png"
-        alt="EBS Logo"
-      />
+      <NavMenuBox />
       <NavSearchBox />
     </StyledNav>    
   );
