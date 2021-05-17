@@ -4,19 +4,19 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { 
   StyledInputField,
   StyledNavSearchBox,
-  StyledInput,
+  InputFieldContainer,
   IconContainer
 } from './styles';
 
 const NavSearchBox = () => {
   return (
     <StyledNavSearchBox>
-      <StyledInputField>
+      <InputFieldContainer>
         <IconContainer>
           <FontAwesomeIcon icon={faSearch} size="1x" />
         </IconContainer>
-        <StyledInput placeholder="Search for books..." />
-      </StyledInputField>
+        <StyledInputField placeholder="Search for books..." />
+      </InputFieldContainer>
     </StyledNavSearchBox>
   );
 }

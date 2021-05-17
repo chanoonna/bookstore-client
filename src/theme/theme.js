@@ -4,7 +4,8 @@ const theme = {
     white: '#FFFFFF',
     black: '#000000',
     darkGray1: '#A9A9A9',
-    darkGray2: '#36465D'
+    darkGray2: '#36465D',
+    lightGray1: '#F4F4F4'
   },
   fontSize: {
     extraSmall: '1rem',
@@ -12,6 +13,9 @@ const theme = {
     medium: '1.5rem',
     large: '2rem',
     extraLarge: '3rem'
+  },
+  fontColor: {
+    primary: '#000000'
   },
   margin: {
     extraSmall: '8px',
